@@ -1,0 +1,23 @@
+.header-container {
+    position: fixed; /* Đặt vị trí của header cố định */
+    top: 0; /* Đặt nó ở trên cùng */
+    left: 0;
+    width: 100%; /* Đảm bảo header bao phủ toàn bộ chiều rộng của trang */
+    z-index: 1000; /* Đảm bảo header luôn ở trên cùng */
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0; /* Padding để làm cho header không bị quá chật chội */
+    box-shadow: 0 4px 2px -2px gray; /* Thêm bóng đổ cho header */
+  }
+  
+  .header-content {
+    width: 1000px; /* Chiều rộng của nội dung header, có thể điều chỉnh */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-input {
+    background-color: #fff; /* Sửa lỗi chính tả ở đây */
+    border-radius: 4px 0 0 4px;
+  }

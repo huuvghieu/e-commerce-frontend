@@ -1,0 +1,19 @@
+.header-container {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: #fff;
+    padding: 7px;
+  }
+  
+  .header-content {
+    width: 1000px; /* Chiều rộng của nội dung header, có thể điều chỉnh */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-input {
+    background-color: #fff; /* Sửa lỗi chính tả ở đây */
+    border-radius: 4px 0 0 4px;
+  }
